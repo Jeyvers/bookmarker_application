@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+} 
+
+.card {
+    background: #f3f3f3;
+    display: grid;
+    place-items: center;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+input[type = 'text'] {
+    width: 650px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: medium;
+    
+}
+
+.header-title {
+    text-align: left;
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px 0;
+   
+}
+
+.card-title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: medium;
+}
+
+.web-name {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px;
+}
+
+.btn {
+    color: white;
+    border: none;
+    padding: 17px 30px;
+    margin: 10.9px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover {
+    opacity: 0.9;
+    
+}
+
+.btn-sm {
+    color: white;
+    border: none;
+    padding: 7px 15px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.btn-sm:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background: blue;
+    font-size: large;
+   
+}
+
+.btn-danger {
+    background-color: rgb(180, 0, 0);
+    padding: 9px 17px;
+}
+
+.btn-white {
+    color: black;
+    border: solid 0.5px black;
+    
+
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.bookmarks {
+    background-color: #f3f3f3;
+    margin-top: 40px;
+    padding: 20px 40px;
+    width: 800px;
+    border-radius: 5px;
+} 

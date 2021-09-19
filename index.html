@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bookmarker Application | Js</title>
+</head>
+<body onload="fetchBookmarks()">
+    <div class="container">
+        <h1 class="header-title">Bookmarker</h1>
+        <div class="card card-body-">
+            <h1 class="card-title">Bookmark Your Favorite Sites</h1>
+            <form id="form">
+           <h3>Site Name</h3> <input type="text" id="webName" placeholder="Enter site name">
+           <h3>Site URL</h3> <input type="text" id="webUrl"  border: solid 0.5px black;
+           padding: 9px 20px; placeholder="Enter site url">
+           <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+        </div>
+
+        <div id="bookmarksList" class="flex">
+
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
